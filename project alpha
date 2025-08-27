@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Alpha</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <svg width="50" height="50">
+                <rect width="50" height="50" style="fill:rgb(0,0,255);" />
+            </svg>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../projects.html">Projects</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="login">
+            <a href="#">Login</a>
+        </div>
+    </header>
+    <main>
+        <h1>Project Alpha: Innovative Soundscapes</h1>
+        <h2>Project Alpha: Innovative Soundscapes</h2>
+        <h3>Recording:</h3>
+        <p>Recorded by <strong>Liam "The Listener" O'Connell</strong> (ManyPeople) and <strong>Chloe "Clarity" Davis</strong> (Freelance).</p>
+        <p>Microphones used: Neumann U87 (vocals), Shure SM57 (guitars), AKG C414 (overheads), and a custom-built binaural microphone array for immersive soundscapes.</p>
+        <p>Audio Interface: Universal Audio Apollo X8p.</p>
+        <h3>Mixing:</h3>
+        <p>Mixed by <strong>Isabella "Immersive" Garcia</strong> (ManyPeople).</p>
+        <p>Software/Hardware: Ableton Live for initial arrangement and sound design, then exported to Pro Tools for final mixing. Utilized a combination of UAD plugins (Lexicon 224, Pultec EQP-1A) and various VSTs for spatial effects and atmospheric processing.</p>
+        <h3>Mastering:</h3>
+        <p>Mastered by <strong>Olivia "Ohm" White</strong> (ManyPeople).</p>
+        <p>Duration: The mastering process took approximately 3 days, including revisions and final quality control checks.</p>
+        <p><a href="../projects.html">Back to Projects</a></p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Your Company. All rights reserved. manypeople.2025</p>
+    </footer>
+</body>
+</html>
