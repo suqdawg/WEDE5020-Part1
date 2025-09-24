@@ -1,10 +1,3 @@
-# WEDE5020-Part1
-Part One of WEDE5020
-
-1.  Added html structure
-2.  Added introduction and body to index page
-3.  added navigation, header and footer
-
 # Changelog
 # WEDE5020-Part2
 
@@ -20,6 +13,14 @@ Part One of WEDE5020
 10. Added assets inside assets folder
 11. 5 images for index and about page appear
 12. Styles.css is linked with header links
+
+
+# WEDE5020-Part1
+Part One of WEDE5020
+
+1.  Added html structure
+2.  Added introduction and body to index page
+3.  added navigation, header and footer
 
 
 ![index 1](https://github.com/user-attachments/assets/5f92bfb2-8457-428b-a467-fcdc93c9d120)
