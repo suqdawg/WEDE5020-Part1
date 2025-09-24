@@ -1,6 +1,13 @@
 # WEDE5020-Part1
 Part One of WEDE5020
 
+Changelog
+Added a folder for projects
+Added a folder for assets
+Added a style.css files
+Every link to each page works
+
+
 ![index 1](https://github.com/user-attachments/assets/5f92bfb2-8457-428b-a467-fcdc93c9d120)
 
 ![index 2](https://github.com/user-attachments/assets/fe247e78-2d8d-4558-8372-85adb50168c1)
