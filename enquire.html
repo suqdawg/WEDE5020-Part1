@@ -33,7 +33,8 @@
             </div>
             <div class="form-group">
                 <label for="message">Message</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
+                <textarea id="message" name="message" rows="5" maxlength="200" required></textarea>
+                <div id="charCount">200 characters remaining</div>
             </div>
             <button type="submit" class="button">Submit</button>
         </form>
@@ -41,5 +42,27 @@
     <footer>
         <p>&copy; 2025 Many People. All Rights Reserved.</p>
     </footer>
+    <script>
+        const messageTextarea = document.getElementById('message');
+        const charCountDiv = document.getElementById('charCount');
+        const maxLength = messageTextarea.maxLength;
+
+        messageTextarea.addEventListener('input', () => {
+            const currentLength = messageTextarea.value.length;
+            const remaining = maxLength - currentLength;
+            charCountDiv.textContent = `${remaining} characters remaining`;
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const enquireForm = document.querySelector('form'); // Assuming there's only one form
+            if (enquireForm) {
+                enquireForm.addEventListener('submit', function(event) {
+                    event.preventDefault(); // Prevent default HTML form submission
+                    validateAndSubmitForm(this);
+                });
+            }
+        });
+    </script>
+    <script src="js/Functionality.js"></script>
 </body>
 </html>
