@@ -31,6 +31,14 @@
 9. all buttons are linked
 10. background colour was changed to #FFFFFF
 
+# References
+1. https://github.com/sindresorhus/awesome
+2. https://github.com/google/webauthndemo
+3. https://github.com/passwordless-id
+4. https://github.com/penpot/penpotqa
+5. https://github.com/ProtonMail/eslint-plugin-enforce-uint8array-arraybuffer
+6. https://github.com/tidal-music/eslint-config-tidal
+
 ![index](https://github.com/user-attachments/assets/8f1e8d5e-177a-4269-ac55-5ea765e6add9)
 
 ![index 2](https://github.com/user-attachments/assets/26d38408-1f4c-4116-8427-92ebec4ac0b8)
