@@ -31,6 +31,26 @@
 9. all buttons are linked
 10. background colour was changed to #FFFFFF
 
+![index](https://github.com/user-attachments/assets/8f1e8d5e-177a-4269-ac55-5ea765e6add9)
+
+![index 2](https://github.com/user-attachments/assets/26d38408-1f4c-4116-8427-92ebec4ac0b8)
+
+![index 3](https://github.com/user-attachments/assets/96e315b8-e6f7-451b-a319-acdcc0acb999)
+
+![index 4](https://github.com/user-attachments/assets/5078e8bf-9873-4d91-8515-9876ecc7a329)
+
+![about](https://github.com/user-attachments/assets/fc5eddbe-11dc-42c8-87cc-f4454c9bfb7b)
+
+![about 2](https://github.com/user-attachments/assets/a51c2720-a5b8-4a1f-ac43-b8e6177cc3d9)
+
+![contact](https://github.com/user-attachments/assets/7cedfde7-8122-43b9-bd76-a8c926be9652)
+
+![contact 2](https://github.com/user-attachments/assets/0f1afe41-af72-49b0-8395-20d31cd6af80)
+
+![enquire](https://github.com/user-attachments/assets/2d9ed251-7677-40b3-bff8-5a33933aaed4)
+
+
+
 
 # WEDE5020-Part1
 Part One of WEDE5020
