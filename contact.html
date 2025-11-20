@@ -3,8 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Contact Us | ManyPeople Audio Engineering</title>
+    <meta name="description" content="Get in touch with the ManyPeople team. Find our address, phone number, email, or use our contact form to discuss your next audio project.">
+
+    <!-- Security Meta Tags -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self';">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.manypeopleaudio.com/contact.html">
+    <meta property="og:title" content="Contact Us | ManyPeople Audio Engineering">
+    <meta property="og:description" content="Get in touch with the ManyPeople team. Find our address, phone number, email, or use our contact form to discuss your next audio project.">
+    <meta property="og:image" content="https://www.manypeopleaudio.com/assets/manypeoplestudio.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.manypeopleaudio.com/contact.html">
+    <meta property="twitter:title" content="Contact Us | ManyPeople Audio Engineering">
+    <meta property="twitter:description" content="Get in touch with the ManyPeople team. Find our address, phone number, email, or use our contact form to discuss your next audio project.">
+    <meta property="twitter:image" content="https://www.manypeopleaudio.com/assets/manypeoplestudio.png">
+
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/favicon.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css">
 </head>
 <body>
     <header>
@@ -19,12 +44,16 @@
 
             </ul>
         </nav>
-        
+        <div class="header-search">
+            <form id="searchForm">
+                <input type="search" id="searchInput" placeholder="Search...">
+                <button type="submit" id="searchBtn">&#128269;</button>
+            </form>
+        </div>
     </header>
     <main>
         <h1>Contact Us</h1>
         <h2>Get In Touch with us</h2>
-        <a href="projects.html" class="button">View Our Work</a>
         <p><strong>Address:</strong> 547 Peve Drive, White Collar, PO Box 42, Johannesburg Central</p>
         <p><strong>Phone:</strong> 011 542 1121</p>
         <p><strong>Email:</strong> info@manypeople.com</p>
@@ -47,15 +76,41 @@
                 <div id="charCount">200 characters remaining</div>
             </div>
 
-            <button type="submit">Submit</button>
+            <button type="submit" class="button">Submit</button>
         </form>
         <div style="height: 1cm;"></div>
         <h1>Location</h1>
         <div style="height: 1cm;"></div>
-        <img src="assets/map.png" alt="map" class="hero-image">
+        <div id="map" class="openlayers-map"></div>
     </main>
     <footer>
-        <p>&copy; 2025 ManyPeople. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <div class="logo-box">MP</div>
+                <p>ManyPeople is dedicated to crafting breathtaking audio experiences. We are sonic architects, amplifying your vision.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html#our-studios">Studios</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">FB</a>
+                    <a href="#" class="social-icon">TW</a>
+                    <a href="#" class="social-icon">IG</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 ManyPeople. All rights reserved.</p>
+        </div>
     </footer>
     <script>
         const messageTextarea = document.getElementById('message');
@@ -78,6 +133,9 @@
             }
         });
     </script>
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
     <script src="js/Functionality.js"></script>
+    <!-- Back to Top Button -->
+    <a href="#" id="backToTopBtn" class="back-to-top-btn" aria-label="Back to top">&#x2191;</a>
 </body>
 </html>
