@@ -3,7 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>ManyPeople | Professional Audio Engineering & Music Production</title>
+    <meta name="description" content="Your home for world-class audio engineering, mixing, mastering, and sound design. We bring your sonic vision to life with passion and precision.">
+
+    <!-- Security Meta Tags -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self';">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.manypeopleaudio.com/">
+    <meta property="og:title" content="ManyPeople | Professional Audio Engineering & Music Production">
+    <meta property="og:description" content="Your home for world-class audio engineering, mixing, mastering, and sound design. We bring your sonic vision to life with passion and precision.">
+    <meta property="og:image" content="https://www.manypeopleaudio.com/assets/manypeoplestudio.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.manypeopleaudio.com/">
+    <meta property="twitter:title" content="ManyPeople | Professional Audio Engineering & Music Production">
+    <meta property="twitter:description" content="Your home for world-class audio engineering, mixing, mastering, and sound design. We bring your sonic vision to life with passion and precision.">
+    <meta property="twitter:image" content="https://www.manypeopleaudio.com/assets/manypeoplestudio.png">
+
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/favicon.png">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -19,55 +43,212 @@
 
             </ul>
         </nav>
-        
+        <div class="header-search">
+            <form id="searchForm">
+                <input type="search" id="searchInput" placeholder="Search...">
+                <button type="submit" id="searchBtn">&#128269;</button>
+            </form>
+        </div>
     </header>
+    <section class="hero">
+        <div class="hero-text">
+            <h1 class="fade-in-element">ManyPeople</h1>
+            <p class="fade-in-element">Welcome to ManyPeople, where sound isn't just heard, it's felt, experienced, and meticulously crafted into an art form! We're not just audio engineers; we're sonic architects, weaving intricate tapestries of sound that elevate your music from good to absolutely breathtaking. Imagine your tracks, not just playing, but resonating with a clarity, depth, and punch that captivates every listener. That's the ManyPeople magic! We dive deep into the heart of your audio, polishing every frequency, balancing every instrument, and ensuring every note shines with its true potential.</p>
+            <a href="services.html" class="button fade-in-element">Explore Our Services</a>
+        </div>
+    </section>
     <main>
-        <img src="assets/mpfont.png" alt="mpfont" class="hero-image">
-        <h1>ManyPeople</h1>
-        <p>Welcome to ManyPeople, where sound isn't just heard, it's felt, experienced, and meticulously crafted into an art form! We're not just audio engineers; we're sonic architects, weaving intricate tapestries of sound that elevate your music from good to absolutely breathtaking. Imagine your tracks, not just playing, but resonating with a clarity, depth, and punch that captivates every listener. That's the ManyPeople magic! We dive deep into the heart of your audio, polishing every frequency, balancing every instrument, and ensuring every note shines with its true potential.</p>
-
         <div class="two-column-section">
-            <div>
+            <div class="fade-in-element">
                 <h2>Why We Do What We Do</h2>
                 <p>Why do audio engineers dedicate their lives to the pursuit of perfect sound? Because we believe that music is more than just notes and rhythms; it's emotion, storytelling, and a universal language that connects souls. Our passion stems from the profound impact a well-engineered track can have. We're driven by the desire to help artists communicate their vision with unparalleled clarity and power. We live for that moment when a mix clicks, when a master breathes new life into a song, and when we hear the sheer joy in an artist's voice as they experience their creation truly come alive. It's about honoring the artistry, amplifying the message, and ensuring that every sonic detail contributes to an unforgettable listening experience. We're not just technicians; we're facilitators of dreams, helping your music reach its fullest, most impactful potential.</p>
             </div>
-            <div>
+            <div class="fade-in-element">
                 <h2>How We Do What We Do</h2>
                 <p>Our journey to sonic mastery is paved with years of relentless practice, unwavering dedication, and an unyielding commitment to resilience. It's a path of continuous learning, where every project is an opportunity to refine our craft and push the boundaries of what's possible. We've spent countless hours honing our ears, understanding the intricate dance of frequencies, and mastering the delicate art of dynamic control. Our expertise isn't just theoretical; it's forged in the crucible of real-world challenges, from taming unruly recordings to coaxing brilliance from the most complex mixes. We embrace every technical hurdle as a chance to innovate, every creative block as an invitation to explore new solutions. Our resilience means we never settle for "good enough"; we relentlessly pursue perfection, knowing that every subtle adjustment contributes to the grand symphony of a truly exceptional sound. We combine cutting-edge technology with time-honored techniques, always adapting, always evolving, and always striving to deliver a sonic experience that transcends expectations. This isn't just a job; it's a calling, a lifelong pursuit of audio excellence driven by an insatiable curiosity and an unwavering passion for making your music sound its absolute best.</p>
             </div>
         </div>
 
         <div style="height: 2cm;"></div>
-        <h2>Our Studios</h2>
+        <section class="core-services">
+            <h2>Our Core Services</h2>
+            <div class="service-card-container">
+                <div class="service-summary-card fade-in-element">
+                    <span class="service-icon">&#127908;</span> <!-- Microphone icon -->
+                    <h3>Audio Engineering</h3>
+                    <p>Meticulous crafting of sound, polishing frequencies, and balancing instruments.</p>
+                </div>
+                <div class="service-summary-card fade-in-element">
+                    <span class="service-icon">&#127925;</span> <!-- Music note icon -->
+                    <h3>Mixing</h3>
+                    <p>Deep-dive audio processing for clarity, depth, and impactful presence.</p>
+                </div>
+                <div class="service-summary-card fade-in-element">
+                    <span class="service-icon">&#127911;</span> <!-- Headphones icon -->
+                    <h3>Mastering</h3>
+                    <p>Ensuring tracks resonate with unparalleled clarity and power for an unforgettable experience.</p>
+                </div>
+                <div class="service-summary-card fade-in-element">
+                    <span class="service-icon">&#128266;</span> <!-- Speaker icon -->
+                    <h3>Sound Design</h3>
+                    <p>Creating immersive and intricate soundscapes for various media.</p>
+                </div>
+                <div class="service-summary-card fade-in-element">
+                    <span class="service-icon">&#128187;</span> <!-- Computer icon -->
+                    <h3>Project Management</h3>
+                    <p>Expert guidance from conception to completion, ensuring dedication and precision.</p>
+                </div>
+            </div>
+            <div style="height: 2cm;"></div> <!-- Add some spacing -->
+        </section>
+        <section class="featured-project">
+            <div class="featured-project-image fade-in-element">
+                <img src="assets/myheartcoverart.png" alt="Cover art for the project My Heart">
+            </div>
+            <div class="featured-project-text fade-in-element">
+                <h4>Featured Project</h4>
+                <h2>My Heart</h2>
+                <p>A journey through sound, 'My Heart' showcases our commitment to sonic excellence. From intimate vocal recording to expansive mastering, we worked closely with the artist to bring their deeply personal vision to life with clarity and emotional impact.</p>
+                <audio controls src="assets/myhearttrack1.wav" class="featured-audio-player">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </section>
+        <section class="trusted-by">
+            <h2>Our Trusted Partners</h2>
+            <div class="client-logos-container">
+                <div class="client-logos">
+                    <!-- Original Set -->
+                    <div class="client-logo">
+                        <img src="assets/abbeyroadstudios.png" alt="Abbey Road Studios Logo" class="client-logo-img">
+                    </div>
+                    <div class="client-logo">
+                        <img src="assets/capetownaudioworks.png" alt="Cape Town Audio Works Logo" class="client-logo-img">
+                    </div>
+                    <div class="client-logo">
+                        <img src="assets/sunsetsoundrecorders.png" alt="Sunset Sound Recorders Logo" class="client-logo-img">
+                    </div>
+                    <div class="client-logo">
+                        <img src="assets/jpsound.png" alt="JP Sound Logo" class="client-logo-img">
+                    </div>
+                    <div class="client-logo">
+                        <img src="assets/musicplace.png" alt="Music Place Logo" class="client-logo-img">
+                    </div>
+                    <!-- Duplicated Set for seamless scroll -->
+                    <div class="client-logo">
+                        <img src="assets/abbeyroadstudios.png" alt="Abbey Road Studios Logo" class="client-logo-img">
+                    </div>
+                    <div class="client-logo">
+                        <img src="assets/capetownaudioworks.png" alt="Cape Town Audio Works Logo" class="client-logo-img">
+                    </div>
+                    <div class="client-logo">
+                        <img src="assets/sunsetsoundrecorders.png" alt="Sunset Sound Recorders Logo" class="client-logo-img">
+                    </div>
+                    <div class="client-logo">
+                        <img src="assets/jpsound.png" alt="JP Sound Logo" class="client-logo-img">
+                    </div>
+                    <div class="client-logo">
+                        <img src="assets/musicplace.png" alt="Music Place Logo" class="client-logo-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <h2 id="our-studios">Our Studios</h2>
 
         <section class="call-to-action">
 
-            <div class="gallery">
-                <a href="Studios/studio1.html"><img src="assets/image1.png" alt="Image 1"></a>
-                <a href="Studios/studio2.html"><img src="assets/image2.png" alt="Image 2"></a>
-                <a href="Studios/studio3.html"><img src="assets/image3.png" alt="Image 3"></a>
+            <div class="slider-outer-wrapper">
+                <div class="slider-container">
+                    <div class="slider">
+                        <a href="Studios/studio1.html" class="slide"><img src="assets/image1.png" alt="Studio 1 control room with mixing console" loading="lazy"></a>
+                        <a href="Studios/studio2.html" class="slide"><img src="assets/image2.png" alt="Studio 2 vocal booth with microphone" loading="lazy"></a>
+                        <a href="Studios/studio3.html" class="slide"><img src="assets/image3.png" alt="Studio 3 live room with drum kit" loading="lazy"></a>
+                    </div>
+                </div>
+                <button class="slider-arrow prev" aria-label="Previous image">&#10094;</button>
+                <button class="slider-arrow next" aria-label="Next image">&#10095;</button>
             </div>
             <div style="height: 1cm;"></div>
             <a href="projects.html" class="button">See our work</a>
         </section>
         <section class="testimonials">
             <h2>Testimonials</h2>
-            <div class="testimonial-item">
+            <div class="testimonial-item fade-in-element">
                 <p>"ManyPeople transformed our sound! The clarity and depth they brought to our tracks were simply astounding. A truly professional and passionate team."</p>
                 <p><strong>- Abbey Road Studios</strong></p>
             </div>
-            <div class="testimonial-item">
+            <div class="testimonial-item fade-in-element">
                 <p>"Working with ManyPeople was a game-changer for our latest album. Their mixing engineers have an incredible ear for detail, and the final masters were perfect."</p>
                 <p><strong>- Cape Town Audio Works (South Africa)</strong></p>
             </div>
-            <div class="testimonial-item">
+            <div class="testimonial-item fade-in-element">
                 <p>"From recording to mastering, ManyPeople exceeded all our expectations. Their dedication to sonic excellence is unmatched. Highly recommended!"</p>
                 <p><strong>- Sunset Sound Recorders</strong></p>
             </div>
         </section>
     </main>
+    <section class="newsletter-section">
+        <div class="newsletter-content">
+            <h2>Join Our Newsletter</h2>
+            <p>Get the latest news, tips, and insights from the studio delivered straight to your inbox.</p>
+            <form id="newsletterSectionForm" class="newsletter-form">
+                <input type="email" name="email" placeholder="Enter your email address" required>
+                <button type="submit" class="button">Subscribe</button>
+            </form>
+        </div>
+    </section>
     <footer>
-        <p>&copy; 2025 ManyPeople. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <div class="logo-box">MP</div>
+                <p>ManyPeople is dedicated to crafting breathtaking audio experiences. We are sonic architects, amplifying your vision.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html#our-studios">Studios</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">FB</a>
+                    <a href="#" class="social-icon">TW</a>
+                    <a href="#" class="social-icon">IG</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 ManyPeople. All rights reserved.</p>
+        </div>
     </footer>
+    <script src="js/Functionality.js" defer></script>
+    <!-- Newsletter Modal -->
+    <div id="newsletterModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Sign up for our Newsletter</h2>
+            <p>Stay updated with our latest news and offers!</p>
+            <form id="newsletterForm">
+                <div class="form-group">
+                    <label for="newsletterEmail">Email:</label>
+                    <input type="email" id="newsletterEmail" name="email" required>
+                </div>
+                <button type="submit" class="button">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    <!-- Cookie Consent Banner -->
+    <div id="cookieConsentBanner" class="cookie-banner">
+        <p>We use cookies to improve your experience. By using our site, you agree to our use of cookies.</p>
+        <button id="acceptCookieBtn" class="button small-button">Accept</button>
+    </div>
+    <!-- Back to Top Button -->
+    <a href="#" id="backToTopBtn" class="back-to-top-btn" aria-label="Back to top">&#x2191;</a>
 </body>
 </html>
+
