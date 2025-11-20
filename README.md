@@ -1,3 +1,73 @@
+# WEDE5020 POE
+
+# Changelog & Improvements
+1. Added page animations
+2. Added and improved the hero section
+3. Changed the image placement for Our Studios
+4. Added arrows to navigate the studio images
+5. Added a pop up modal for newsletter
+6. Added a horizontal sliding section for our trusted partners
+7. Added a sticky header
+8. Added mobile responsiveness
+9. Added hover to testimonial section cards and all cards in the site
+10. Updated the footer and added the 3 column social media links
+11. Update testimonial section
+12. Added alt text for images, for screen readers
+13. Boosted performance speed with lazy loading of images
+14. Added back to top on all pages that need it
+15. Added Core Services on index
+16. Added Featured project card on index
+17. Added client logos
+18. Added a favicon
+19. Created a 404 error page
+20. Added SEO tags on all the pages
+21. Added more audio and audio players
+22. Added cookies agreement
+23. Added profiles in about page
+24. Added mission and vision to look more visually appealing in About page
+25. Added Meet the team section
+26. Moved passions and skills to bottom
+27. Added tages for skills and passions to be appealing
+28. Removed enquire button from about page
+29. Added gallery using two images on about page
+30. Removed See Our Work button from services page
+31. Replace the submit button for the form to be cohesive with others
+32. Added Cover Art images in project page
+33. Added search
+34. Added search functionality for Client Side search
+35. Added accordion in Service pages. Audio Engineering, Mixing, Mastering, etc.
+36. Added a robots.txt 
+37. Added a sitemap
+38. Added security meta tags to the site
+39. Added a OpenLayers Map (please look at Contact page to confirm)
+
+# Screenshots
+# Index
+![Index 1](https://github.com/user-attachments/assets/b5ccc550-8478-422e-aeb5-62f251d24cdb)
+![Index 2](https://github.com/user-attachments/assets/96d3f30c-cd51-42d0-8d9e-cde69f1221e6)
+![Index 3](https://github.com/user-attachments/assets/8dbb12b1-de38-4981-a2fd-d3d587e24f47)
+![Index 4](https://github.com/user-attachments/assets/b0602756-d383-4a05-9b72-b55f39cb82b3)
+![Index 5](https://github.com/user-attachments/assets/2e502e47-fd4e-4baf-9b41-9841d57cfdd3)
+![Index 6](https://github.com/user-attachments/assets/90eef846-f9c9-43df-b32c-64e9278b30e3)
+![Index 7](https://github.com/user-attachments/assets/a8abe2fe-77d8-4bd9-91e6-e7fb0ae08b82)
+![Index 8](https://github.com/user-attachments/assets/b99bf611-16f6-4cfe-94b2-a53cb18c2c59)
+
+# About
+![About 1](https://github.com/user-attachments/assets/80c6f3a3-f2e2-4f31-b251-f6324becca2a)
+![About 2](https://github.com/user-attachments/assets/cc40d2e4-7ef4-4929-b0c3-a3bc2e98d093)
+![About 3](https://github.com/user-attachments/assets/617b0fbc-6984-4ecd-b537-62507dd75d70)
+![About 4](https://github.com/user-attachments/assets/246c8b60-5866-43d8-b501-1e53b19cc105)
+![About 5](https://github.com/user-attachments/assets/0470ebd9-8f44-4f7a-86a4-956391f3f444)
+![About 6](https://github.com/user-attachments/assets/a665b54b-77e0-4f85-8196-02f719594252)
+
+# Services
+![Services 1](https://github.com/user-attachments/assets/a7d1e6e3-b646-4297-8b50-0040090b6d50)
+
+# Projects
+![Projects 1](https://github.com/user-attachments/assets/7aeea29a-1216-47c6-9438-c37d74d4ca93)
+![Projects 2](https://github.com/user-attachments/assets/011589e7-1394-495a-b6ab-c4f08206690d)
+![Projects 3](https://github.com/user-attachments/assets/80bb055f-bfa9-4a55-8019-c157545a825d)
+
 # WEDE5020 Part 2
 
 # Changelog
