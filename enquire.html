@@ -2,7 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Enquire</title>
+    <title>Enquire About a Project | ManyPeople Audio</title>
+    <meta name="description" content="Have a project in mind? Fill out our enquiry form to get in touch with our team and start the conversation about your audio needs.">
+
+    <!-- Security Meta Tags -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self';">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.manypeopleaudio.com/enquire.html">
+    <meta property="og:title" content="Enquire About a Project | ManyPeople Audio">
+    <meta property="og:description" content="Have a project in mind? Fill out our enquiry form to get in touch with our team and start the conversation about your audio needs.">
+    <meta property="og:image" content="https://www.manypeopleaudio.com/assets/manypeoplestudio.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.manypeopleaudio.com/enquire.html">
+    <meta property="twitter:title" content="Enquire About a Project | ManyPeople Audio">
+    <meta property="twitter:description" content="Have a project in mind? Fill out our enquiry form to get in touch with our team and start the conversation about your audio needs.">
+    <meta property="twitter:image" content="https://www.manypeopleaudio.com/assets/manypeoplestudio.png">
+
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/favicon.png">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -18,6 +42,12 @@
 
             </ul>
         </nav>
+        <div class="header-search">
+            <form id="searchForm">
+                <input type="search" id="searchInput" placeholder="Search...">
+                <button type="submit" id="searchBtn">&#128269;</button>
+            </form>
+        </div>
     </header>
     <main>
         <h1>Enquire</h1>
@@ -40,7 +70,33 @@
         </form>
     </main>
     <footer>
-        <p>&copy; 2025 Many People. All Rights Reserved.</p>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <div class="logo-box">MP</div>
+                <p>ManyPeople is dedicated to crafting breathtaking audio experiences. We are sonic architects, amplifying your vision.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html#our-studios">Studios</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">FB</a>
+                    <a href="#" class="social-icon">TW</a>
+                    <a href="#" class="social-icon">IG</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 ManyPeople. All rights reserved.</p>
+        </div>
     </footer>
     <script>
         const messageTextarea = document.getElementById('message');
